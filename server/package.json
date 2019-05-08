@@ -1,0 +1,17 @@
+{
+  "name": "congratulations-gun-server",
+  "version": "0.0.1",
+  "description": "Gun.js relay server for Congrats Dapp",
+  "main": "index.js",
+  "repository": "https://www.github.com/good-idea/congratulations",
+  "author": "Joseph Thomas | Good Idea Studio",
+  "license": "MIT",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "dotenv": "^8.0.0",
+    "express": "^4.16.4",
+    "gun": "^0.2019.428"
+  }
+}
